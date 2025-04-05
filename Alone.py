@@ -12,7 +12,7 @@ from io import BytesIO
 from telebot import types
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('8112431515:AAHWnPTiKAb1HjNVWCseYvLxgKvr-6NUaqc')
+bot = telebot.TeleBot('8112431515:AAE8bX2Kkur_WTZnvw8_w2X9ChDxzF7-z9s')
 
 # Admin user IDs
 admin_id = ["6539807903"]
@@ -161,7 +161,7 @@ def handle_attack(message):
     if time_duration > 60:
         bot.reply_to(message, "🚫 **Maximum Duration Exceeded!**\n"
                               "⏳ *The maximum attack duration is 60 seconds.*\n"
-                              "Please adjust the time and try again.")
+                              "FREE ITNA HI MILEGA ISSE CHAHIYE TO PAID BUY KARO @GAURAV_BHAI1.")
         is_attack_in_progress = False  # Reset the flag if duration exceeds limit
         return
 
